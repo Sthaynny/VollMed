@@ -31,6 +31,7 @@
 		488A6A2B2AB93472003A2CAD /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A2A2AB93472003A2CAD /* KeychainHelper.swift */; };
 		488A6A2E2AB93514003A2CAD /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A2D2AB93514003A2CAD /* AuthenticationManager.swift */; };
 		C2190C742D499FCE00D84FFA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C732D499FCE00D84FFA /* Endpoint.swift */; };
+		C2190C762D49A3BE00D84FFA /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C752D49A3B700D84FFA /* RequestMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		488A6A2A2AB93472003A2CAD /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		488A6A2D2AB93514003A2CAD /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		C2190C732D499FCE00D84FFA /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		C2190C752D49A3B700D84FFA /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -193,6 +195,7 @@
 		C2190C702D499F8700D84FFA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C2190C752D49A3B700D84FFA /* RequestMethod.swift */,
 				C2190C732D499FCE00D84FFA /* Endpoint.swift */,
 			);
 			path = Base;
@@ -300,6 +303,7 @@
 				488A6A272AB93065003A2CAD /* UserDefaultsHelper.swift in Sources */,
 				484BEF012AB0F6090033C07A /* ButtonView.swift in Sources */,
 				488A6A1F2AB91FF1003A2CAD /* SignInView.swift in Sources */,
+				C2190C762D49A3BE00D84FFA /* RequestMethod.swift in Sources */,
 				484BEF032AB0F7080033C07A /* SpecialistCardView.swift in Sources */,
 				484BEEFF2AB0F59D0033C07A /* WebService.swift in Sources */,
 				488A6A212AB920F1003A2CAD /* SignUpView.swift in Sources */,

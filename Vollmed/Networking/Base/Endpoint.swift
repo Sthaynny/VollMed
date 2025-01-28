@@ -24,7 +24,3 @@ extension Endpoint{
         return "localhost"
     }
 }
-
-enum RequestMethod {
-    
-}
