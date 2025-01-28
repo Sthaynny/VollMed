@@ -11,6 +11,8 @@ struct HomeViewModel{
     
     //MARK: Variaveis
     let services = WebService( )
+    var authManager = AuthenticationManager.shared
+
     
     //MARK: CLASS METHODS
     
@@ -23,6 +25,18 @@ struct HomeViewModel{
         } catch {
             print("Ocorreu um erro ao obter os especialistas: \(error)")
             throw error
+        }
+    }
+    
+    func logout() async {
+        do {
+            let result = try await services.logoutPatient()
+            if result {
+                authManager.removeToken()
+                authManager.removePatientID()
+            }
+        } catch {
+            print("Ocorreu um erro no logout: \(error)")
         }
     }
     
