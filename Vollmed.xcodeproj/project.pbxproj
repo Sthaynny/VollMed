@@ -33,6 +33,7 @@
 		C2190C742D499FCE00D84FFA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C732D499FCE00D84FFA /* Endpoint.swift */; };
 		C2190C762D49A3BE00D84FFA /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C752D49A3B700D84FFA /* RequestMethod.swift */; };
 		C2190C782D49A45F00D84FFA /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C772D49A45100D84FFA /* RequestError.swift */; };
+		C2190C7A2D49A5A500D84FFA /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C792D49A59D00D84FFA /* HttpClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		C2190C732D499FCE00D84FFA /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		C2190C752D49A3B700D84FFA /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
 		C2190C772D49A45100D84FFA /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		C2190C792D49A59D00D84FFA /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -187,8 +189,8 @@
 		C2190C6F2D499F7500D84FFA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				C2190C712D499F8E00D84FFA /* Enpoints */,
 				C2190C702D499F8700D84FFA /* Base */,
+				C2190C712D499F8E00D84FFA /* Enpoints */,
 				C2190C722D499F9700D84FFA /* Services */,
 			);
 			path = Networking;
@@ -197,6 +199,7 @@
 		C2190C702D499F8700D84FFA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C2190C792D49A59D00D84FFA /* HttpClient.swift */,
 				C2190C772D49A45100D84FFA /* RequestError.swift */,
 				C2190C752D49A3B700D84FFA /* RequestMethod.swift */,
 				C2190C732D499FCE00D84FFA /* Endpoint.swift */,
@@ -310,6 +313,7 @@
 				C2190C762D49A3BE00D84FFA /* RequestMethod.swift in Sources */,
 				484BEF032AB0F7080033C07A /* SpecialistCardView.swift in Sources */,
 				484BEEFF2AB0F59D0033C07A /* WebService.swift in Sources */,
+				C2190C7A2D49A5A500D84FFA /* HttpClient.swift in Sources */,
 				488A6A212AB920F1003A2CAD /* SignUpView.swift in Sources */,
 				48539DED2AB0F47C005BD7C9 /* VollmedApp.swift in Sources */,
 				488A6A252AB92ED9003A2CAD /* Login.swift in Sources */,
