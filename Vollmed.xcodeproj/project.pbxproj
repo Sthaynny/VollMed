@@ -32,6 +32,7 @@
 		488A6A2E2AB93514003A2CAD /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A2D2AB93514003A2CAD /* AuthenticationManager.swift */; };
 		C2190C742D499FCE00D84FFA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C732D499FCE00D84FFA /* Endpoint.swift */; };
 		C2190C762D49A3BE00D84FFA /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C752D49A3B700D84FFA /* RequestMethod.swift */; };
+		C2190C782D49A45F00D84FFA /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2190C772D49A45100D84FFA /* RequestError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		488A6A2D2AB93514003A2CAD /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		C2190C732D499FCE00D84FFA /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		C2190C752D49A3B700D84FFA /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		C2190C772D49A45100D84FFA /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -195,6 +197,7 @@
 		C2190C702D499F8700D84FFA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C2190C772D49A45100D84FFA /* RequestError.swift */,
 				C2190C752D49A3B700D84FFA /* RequestMethod.swift */,
 				C2190C732D499FCE00D84FFA /* Endpoint.swift */,
 			);
@@ -298,6 +301,7 @@
 				484BEF052AB0F7970033C07A /* HomeView.swift in Sources */,
 				488A6A1D2AB91386003A2CAD /* CancelAppointmentView.swift in Sources */,
 				488A6A2E2AB93514003A2CAD /* AuthenticationManager.swift in Sources */,
+				C2190C782D49A45F00D84FFA /* RequestError.swift in Sources */,
 				484BEEFD2AB0F5750033C07A /* Specialist.swift in Sources */,
 				C2190C742D499FCE00D84FFA /* Endpoint.swift in Sources */,
 				488A6A272AB93065003A2CAD /* UserDefaultsHelper.swift in Sources */,
