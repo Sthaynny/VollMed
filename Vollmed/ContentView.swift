@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Vollmed
 //
-//  Created by Giovanna Moeller on 12/09/23.
+//  Created by Igor Costa Nascimento on 28/01/25.
 //
 
 import SwiftUI

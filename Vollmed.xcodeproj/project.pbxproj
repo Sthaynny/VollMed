@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -58,6 +58,10 @@
 		488A6A2A2AB93472003A2CAD /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		488A6A2D2AB93514003A2CAD /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C2190C6B2D499A1E00D84FFA /* ViewModels */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModels; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		48539DE62AB0F47C005BD7C9 /* Frameworks */ = {
@@ -134,6 +138,7 @@
 		48539DEB2AB0F47C005BD7C9 /* Vollmed */ = {
 			isa = PBXGroup;
 			children = (
+				C2190C6B2D499A1E00D84FFA /* ViewModels */,
 				488A6A2C2AB9350C003A2CAD /* Managers */,
 				488A6A112AB8FB35003A2CAD /* Extensions */,
 				484BEEFB2AB0F56C0033C07A /* Services */,
@@ -186,6 +191,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C2190C6B2D499A1E00D84FFA /* ViewModels */,
 			);
 			name = Vollmed;
 			productName = Vollmed;
