@@ -15,16 +15,7 @@ struct HomeView: View {
     
     @State private var specialists: [Specialist] = []
     
-    func getSpecialists() async {
-        do {
-            if let specialists = try await service.getAllSpecialists() {
-                self.specialists = specialists
-            }
-        } catch {
-            print("Ocorreu um erro ao obter os especialistas: \(error)")
-        }
-    }
-    
+     
     func logout() async {
         do {
             let logoutSuccessful = try await service.logoutPatient()
@@ -65,7 +56,12 @@ struct HomeView: View {
         .padding(.top)
         .onAppear {
             Task {
-                await getSpecialists()
+                do{
+                    let response = try await viewModel.getSpecialists()
+                    self.specialists = response
+                }catch{
+                    print(error.localizedDescription)
+                }
             }
         }
         .toolbar {
