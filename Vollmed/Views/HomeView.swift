@@ -12,9 +12,6 @@ struct HomeView: View {
     
     @State private var specialists: [Specialist] = []
     
-     
-    
-    
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack {
@@ -55,11 +52,7 @@ struct HomeView: View {
             ToolbarItem(placement: .topBarTrailing) {
                 Button(action: {
                     Task {
-                        do{
-                            try await viewModel.logout();
-                        } catch {
-                            print(error.localizedDescription)
-                        }
+                        await viewModel.logout();
                     }
                 }, label: {
                     HStack(spacing: 2) {
